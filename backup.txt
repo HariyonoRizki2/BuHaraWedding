@@ -1,0 +1,69 @@
+
+
+
+data-email="user@example.com" data-password="12345678" data-url="https://api.ulems.my.id/" style="overflow-y: hidden;"
+
+
+                        <!-- TAG NAMA -->
+                    <div class="mb-3">
+                        <label for="form-nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control shadow-sm" placeholder="Isikan Nama Anda">
+                    </div>
+                        <!-- TAG OPTION KEHADIRAN -->
+                    <div class="mb-3">
+                        <label for="form-kehadiran" class="form-label">Kehadiran</label>
+                        <select class="form-select shadow-sm" id="form-kehadiran">
+                            <option value="0" selected>Konfirmasi Kehadiran</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Berhalangan">Berhalangan</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="form-pesan" class="form-label">Ucapan & Doa</label>
+                        <div id="alertDiv" class="alert alert-info alert-dismissible fade show" role="alert">
+                            <p style="font-size: 1.5rem;">PERHATIAN!</p>
+                            <p class="m-0">Ayo kirim doa dan ucapan terbaikmu bagi kedua mempelai yaa :)</p>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="localStorage.setItem('alertClosed', 'true'); document.getElementById('alertDiv').style.display = 'none';"></button>
+                        </div>
+                        <textarea class="form-control shadow-sm" id="form-pesan" rows="4" placeholder="Tulis Ucapan & Doa"></textarea>
+                    </div>
+               
+                    <div class="d-flex">
+                 <!--       <button class="flex-fill btn btn-danger btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.batal()" id="batal">
+                            Batal<i class="fa-solid fa-xmark ms-1"></i>
+                        </button>
+                        <button class="flex-fill btn btn-success btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.balas()" id="balas">
+                            Balas<i class="fa-solid fa-reply ms-1"></i>
+                        </button>
+                        <button class="flex-fill btn btn-warning btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.ubah()" id="ubah">
+                            Ubah<i class="fa-solid fa-pen-to-square ms-1"></i>
+                        </button> -->
+                        <button type="submit" class="flex-fill btn btn-primary btn-sm rounded-3 shadow m-1" >
+                            Kirim<i class="fa-solid fa-paper-plane ms-1"></i>
+                        </button>
+                    </div>
+                 <!--</form> -->
+                </div>
+<!--
+                <div class="rounded-4 mt-4 mb-2" id="daftar-ucapan"></div>
+
+                <nav class="d-flex justify-content-center mb-0">
+                    <ul class="pagination mb-0">
+                        <li class="page-item disabled" id="previous">
+                            <button class="page-link" onclick="pagination.previous(this)" aria-label="Sebelumnya">
+                                <i class="fa-solid fa-circle-left me-1"></i>Sebelumnya
+                            </button>
+                        </li>
+                        <li class="page-item disabled">
+                            <span class="page-link text-light" id="page">1</span>
+                        </li>
+                        <li class="page-item" id="next">
+                            <button class="page-link" onclick="pagination.next(this)" aria-label="Selanjutnya">
+                                Selanjutnya<i class="fa-solid fa-circle-right ms-1"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        -->
