@@ -1,20 +1,4 @@
-# Template website undangan pernikahan sederhana
-
-![Thumbnail](/assets/images/banner.png)
-![pages-build-deployment](https://github.com/dewanakl/undangan/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)
-![Hits](https://badge.dikit.my.id/undangan?label=hits&color=brightgreen)
-
-## Demo
-
-<https://dewanakl.github.io/undangan/?to=Teman+teman+semua>
-
-### Deployment API
-
-- Vercel
-[https://dikit.my.id/DeploymentApiVercel](https://dikit.my.id/DeploymentApiVercel)
-
-- Hosting
-[https://dikit.my.id/DeploymentApiHosting](https://dikit.my.id/DeploymentApiHosting)
+# UNDANGAN PERNIKAHAN HARDIYANTI & HASAN
 
 ### Tech stack
 
@@ -32,7 +16,7 @@ I'm very open to those of you who want to contribute to the undangan!
 
 ### Security Vulnerabilities
 
-If you find any security vulnerabilities in this undangan, please email DKL via [dewanakretarta29@gmail.com](mailto:dewanakretarta29@gmail.com).
+If you find any security vulnerabilities in this undangan, please email KIKI via [hai@kiki-id.tk](mailto:hai@kiki-id.tk).
 
 ### License
 
